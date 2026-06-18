@@ -1,0 +1,20 @@
+{
+  "name": "cmc-visuals",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Subject Media creator storefront + role-scoped dashboard. Reusable template — one config file per creator.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "validate": "node scripts/validate-config.js"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "stripe": "16.2.0",
+    "@supabase/supabase-js": "2.45.0",
+    "resend": "3.4.0"
+  }
+}
