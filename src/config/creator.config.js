@@ -11,11 +11,13 @@ const CREATOR_CONFIG = {
 
   /* --- IDENTITY --- */
   businessName: "CMC VISUALS",
+  creatorName: "Carson McCauley",         // confirmed via discovery — real name behind the brand
   handle: "@cmcvisualz",
-  location: "Atlanta, GA",
+  location: "Fishers / Indianapolis, IN", // corrected from discovery (was a placeholder guess)
+  portfolioUrl: "https://cmcvisualz.myportfolio.com", // his real existing portfolio
   tagline: "Done-for-you photo & video coverage for your athlete. Delivered fast. Built for recruiting.",
   heroHeadline: ["PROFESSIONAL", "SPORTS MEDIA", "COVERAGE"],
-  logoUrl: "",
+  logoUrl: "",                            // no logo — photo-led identity, standard at this stage
 
   /* --- SEO / SOCIAL SHARING --- */
   seo: {
@@ -104,7 +106,7 @@ const CREATOR_CONFIG = {
   },
 
   /* --- FOOTER --- */
-  footerNote: "Creator-owned coverage · Built for athletes"
+  footerNote: "Carson McCauley · CMC Visuals · Built for athletes"
 };
 
 export default CREATOR_CONFIG;
